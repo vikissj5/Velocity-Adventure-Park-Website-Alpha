@@ -1,3 +1,29 @@
 body{
-    background-color: aqua;
+    background-color: #20b67b;
+    transition: background-color 10s ease;
 }
+/* #aboutBody{
+    background-color: bisque;
+    transition: background-color 2s ease;
+}
+#weddingBody{
+    background-color: blueviolet;
+    transition: background-color 2s ease;
+}
+#activitiesBody{
+    background-color: maroon;
+    transition: background-color 2s ease;
+} */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
