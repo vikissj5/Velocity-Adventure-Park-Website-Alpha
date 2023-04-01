@@ -104,7 +104,36 @@ body{
       max-width: 90%;
     }
   }
-  
+  /* Default styles */
+
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+  .cardImg {
+    max-width: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .cardImg {
+    max-width: 33.33%;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cardImg {
+    max-width: 25%;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
  
 .card-container{
   display: flex;
