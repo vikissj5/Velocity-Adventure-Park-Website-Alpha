@@ -43,38 +43,10 @@
       padding: 40px 0;
   }
 
-  body{
-    background-color: #aff2bc;
-    transition: background-color 10s ease;
-}
-/* #aboutBody{
-    background-color: bisque;
-    transition: background-color 2s ease;
-}
-#weddingBody{
-    background-color: blueviolet;
-    transition: background-color 2s ease;
-}
-#activitiesBody{
-    background-color: maroon;
-    transition: background-color 2s ease;
-} */
-
-
-/* ----------------------------------to create fade-in effect on page change-------------------------------------------------------------- */
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
+  body {
+      width: 100%;
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+
   /* header section */
   .logo{
     width: 50px;
