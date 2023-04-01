@@ -1,5 +1,5 @@
 body{
-    background-color: #20b67b;
+    background-color: #aff2bc;
     transition: background-color 10s ease;
 }
 /* #aboutBody{
@@ -14,6 +14,9 @@ body{
     background-color: maroon;
     transition: background-color 2s ease;
 } */
+
+
+/* ----------------------------------to create fade-in effect on page change-------------------------------------------------------------- */
 .fade-in {
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
@@ -27,3 +30,156 @@ body{
       opacity: 1;
     }
   }
+  /* ------------------------Navigation tab styling-------------------------------------------------------------------------------------------- */
+  nav {
+    display: flex;
+    justify-content: space-arounds;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #1abc9c;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0 15px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #148f77;
+  }
+  
+  nav ul li.active a {
+    background-color: #148f77;
+  }
+  
+  /* ---------------------------------------Activities Card and Home Inage-------------------------------------------------------------- */
+  #image-container {
+    position: relative;
+  }
+  
+  #homeImg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #content {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #148f77;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  /* ----------------------------------------media queries for dynamic resizing----------------------------------------------------------- */
+  @media only screen and (max-width: 768px) {
+    #content {
+      padding: 10px;
+      max-width: 90%;
+    }
+  }
+  
+ 
+.card-container{
+  display: flex;
+  grid-template-columns: auto;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.card:nth-child(1) {
+  border-color: #ff0000; /* red border */
+}
+
+.card:nth-child(2) {
+  border-color: #00ff00; /* green border */
+}
+
+.card:nth-child(3) {
+  border-color: #0000ff; /* blue border */
+}
+
+.card:nth-child(4) {
+  border-color: #ffff00; /* yellow border */
+}
+
+.card:nth-child(5) {
+  border-color: #ff00ff; /* magenta border */
+}
+
+.card:nth-child(6) {
+  border-color: #00ffff; /* cyan border */
+}
+.cardImg{
+  width: 450px;
+  height: 600px;
+}
+
+/* ----------------------------------------book ticket button------------------------------------------------------------------------- */
+.book-ticket-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+}
+
+.book-ticket-button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.book-ticket-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+/* #overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+} */

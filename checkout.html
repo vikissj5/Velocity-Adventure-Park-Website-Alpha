@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css">
+    <script src = "checkout.js" defer></script>
+</head>
+<body>
+    <header>
+        <button onclick="loadHome()">back</button>
+        <h1 id = "check-heading">Checkout</h1>
+    </header>
+    <main id="main">
+        <div id = "summary">
+            <h2 id="sum">Summary</h2>
+            <h3 id = "rideName" style="padding-left: 10px;margin-bottom: 10px;"></h3>
+            <div id ="ticprice" style="padding-left: 10px;margin-bottom: 10px;"></div>
+            <div id = "con" style="padding-left: 10px;margin-bottom: 10px;">Convinience fee : 1.75%</div>
+            <br>
+            <label for ="numTick" style="padding-left: 10px;">Number of tickets</label>
+            <input id = "numTick" type = "number">
+            <br>
+            <div id="subTotal" style="padding-left: 10px;margin-top: 20px;">Rs. 0</div>
+        </div>
+    <div id = "payment-details">
+        <form class = "form" method="post">
+            <div id="personal">
+                <label for="firstName" >FirstName</label>
+                <input id = "firstName" type="text" class="inp">
+                <label for="lasrName">LastName</label>
+                <input id = "lastName" type="text" class="inp">
+                <label for="email">Email</label>
+                <input id = "email" type="email" class="inp">
+            </div>
+            <hr style="width: 1px solid black;">
+            
+            <div id = "card-details">
+                
+                    <label for="card-name" >Name on card</label>
+                    <input id = "card-name" type="text" class="inp">
+                
+                
+                    <label for ="credit-card">Credit</label>
+                    <input id="credit-card" type="radio" name="pmode" >
+                    <label for ="debit-card">Debit</label>
+                    <input id="debit-card" type="radio" name="pmode">
+                    <label for ="upi">Upi</label>
+                    <input id="upi" type="radio" name="pmode">
+                <br>
+                
+                    <label for="card-number">Card Number</label>
+                    
+                    <input id = "card-number" type="number" class="inp">
+                
+                
+                    <label for="expiry-date">Expiration date</label>
+                    <input id="expiry-date" type="date">
+                
+                <div>
+                    <label for="cvv">Cvv</label>
+                    <input type="number" id="cvv" maxlength="999">
+                </div>
+                <button>Proceed to pay</button>
+            </div>
+
+        </form>
+    </div>
+    </main>
+    
+</body>
+</html>

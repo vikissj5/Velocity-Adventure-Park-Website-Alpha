@@ -3,22 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Velocity Adventure Park</title>
     <base href="http://127.0.0.1:5500/">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <script type="text/javascript" src="./script.js" defer></script>
 </head>
-<body >
+<body>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="wedding.html">Weddings And Parties</a></li>
+            <li><a href="Wedding.html">Weddings And Parties</a></li>
         </ul>
     </nav>
-   <img class="fade-in" src="http://127.0.0.1:5500/images/1img.jpg"> 
+   <div id="image-container">
+      <img id="homeImg"  src="http://127.0.0.1:5500/images/buildingimg1.jpg"> 
+      <div id="content">
+         <h1>Welcome to Velocity Adventure Park</h1>
+         <p>Go-karting is an exhilarating activity that is enjoyed by people of all ages. Whether you're a speed demon or just looking for a fun day out with friends and family, go-karting is the perfect activity for you.
+
+            The concept of go-karting is simple - you sit in a small, motorized vehicle and race around a track with other drivers. It's a test of skill, speed, and agility, and requires quick reflexes and a competitive spirit.
+            
+            Go-karting can be enjoyed both indoors and outdoors, and there are tracks of various sizes and difficulty levels to cater to all skill levels. For beginners, there are tracks with slower speeds and fewer obstacles, while more experienced drivers can tackle high-speed tracks with hairpin turns and challenging terrain.
+            
+            One of the best things about go-karting is that it's a social activity that can be enjoyed with friends, family, or even coworkers. It's a great way to bond with others and to create lasting memories.
+            
+            Additionally, go-karting is a great way to release some adrenaline and get your heart racing. It's a fun and exciting way to stay active and get some exercise, while also improving your reflexes and hand-eye coordination.
+            
+            So if you're looking for an exciting activity that's suitable for all ages and skill levels, go-karting is definitely worth a try. Head to your local go-karting track and experience the thrill of the race!</p>
+        </div>
+
+         <div class="card-container">
+            <div class="card">
+                <img class = "cardImg" src="http://127.0.0.1:5500/images/gokart.jpg">
+                <h2>Fast and Furious</h2>
+                <p>Our go-karting track is designed for speed demons who love the thrill of the race.</p>
+                <h4>Rs. 200</h4>
+                <button class="book-ticket-button" value="200" onclick = "window.location.href = 'checkout.html?tit=Go-karting&pr=200'">Book Tickets</button>
+            </div>
+            <div class="card">
+                <img class = "cardImg" src="http://127.0.0.1:5500/images/paintball.jpg">
+                <h2>Counter Strike</h2>
+                <p>Experience the ultimate Paintball adventure with our state-of-the-art arena.</p>
+                <h4>Rs. 250</h4>
+                <button class="book-ticket-button"  value="250" onclick = "window.location.href = 'checkout.html?tit=Paint-Ball&pr=250'">Book Tickets</button>
+            </div>
+            <div class="card">
+                <img  class = "cardImg" src="http://127.0.0.1:5500/images/bullride.jpg">
+                <h2>Bull Ride</h2>
+                <p>Cool off on a hot day with a thrilling ride on our Bull Ride.</p>
+                <h4>Rs. 150</h4>
+                
+                    <button class="book-ticket-button" value="150"  onclick = "window.location.href = 'checkout.html?tit=Bull-Ride&pr=150'">Book Tickets</button>
+            </div>
+            <div class="card">
+                <img  class = "cardImg" src="http://127.0.0.1:5500/images/archer.jpg">
+                <h2>Archery</h2>
+                <p>Test your strength and endurance on our challenging rock climbing wall.</p>
+                <h4>Rs. 100</h4>
+                <button class="book-ticket-button"  value="100" onclick = "window.location.href = 'checkout.html?tit=Archery&pr=100'">Book Tickets</button>
+            </div>
+            <div class="card">
+                <img class = "cardImg" src="http://127.0.0.1:5500/images/coverDrive.jpg">
+                <h2>Cover Drive</h2>
+                <p>Enjoy a fun-filled game of cricket with family and friends.</p>
+                <h4>Rs. 100</h4>
+                <button class="book-ticket-button"  value="100" onclick = "window.location.href = 'checkout.html?tit=Cover-Drive&pr=100'">Book Tickets</button>
+            </div>
+            <div class="card">
+                <img class = "cardImg" src="http://127.0.0.1:5500/images/bungee.jpg">
+                <h2>Bungee Jump</h2>
+                <p>Get your Adrenaline pumping with Bungee jump</p>
+                <h4>Rs. 150</h4>
+                <button class="book-ticket-button"  value="150" onclick = "window.location.href = 'checkout.html?tit=Bunjee-Jump&pr=150'">Book Tickets</button>
+                
+           
+         </div>
+      </div>
+   </div>
+   
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+<footer>
+    Contact Info: 
+    <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="https://www.google.com/maps/"><ion-icon name="location-outline"></ion-icon></a>
+    <ion-icon name="call-outline"></ion-icon>
+  </footer>
 </html>

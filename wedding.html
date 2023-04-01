@@ -1,22 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+    <title>Document</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script type="text/javascript" src="./script.js" defer></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_wedding.css">
+    
 </head>
-<body id = "weddingBody">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="wedding.html">Weddings And Parties</a></li>
-        </ul>
-    </nav>
-    <h1  class="fade-in">Weddings and Parties</h1>
+<body>
+       <!-- header -->
+       <section id="header">
+        
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Wedding.html">Wedding</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa fa-outdent"></i>
+        </div>
+    </section>
+    <!-- midsection -->
+    <section id="page_wedding">
+        <h2 style="font-weight: bold;">Plan Your Perfect Wedding Day Right Here!</h2>
+        <p>Search for local wedding planning professionals and vendors with pricing, reviews, and more.</p>
+        <div class="col-md-4 col-sm-4" style="float:unset; margin:0 auto;">
+            <button type="button" class="btn btn-light">Start Manage your Wedding</button>
+          </div>
+        <p class="clearfix" style="letter-spacing:2px;">Wedding Venues, Wedding Photography, Wedding Music, Bridal Jewellery, Wedding Invitations, Bridal Lehenga, Florists, Honeymoon</p>
+
+    </section>
+    <!-- wedding_section -->
+    <section id="section-main" style="padding-top:40px;">
+        <div class="wedding-first-section  wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+           <h2>Expert Management for Your Wedding</h2>
+           <p>Search the finest professionals and resources in a huge network at our wedding management company.
+              Compare wedding experts for their service quality, pricing, and other specifications.
+              Find experienced professionals who hold qualifications and knowledge to serve your needs.
+           </p>
+        </div>
+        <!-- icon and some text section -->
+        <div class="wedding-second-section">
+            <div class="col-md-8  wow fadeInRight" data-animate="fadeInLeft" style="visibility: visible; animation-name: fadeInRight;">
+                <!-- first_icon_ring -->
+              <div class="media">
+                 <div class="media-left">
+                    <img src="./wedding_page/ring.png" alt="New York">
+                 </div>
+                 <div class="media-body">
+                    <h4 class="media-heading">Manage Wedding Vendors</h4>
+                    <p>Photographers, makeup artists, venues, and caterers, you can find and manage every wedding planner 
+                    </p>
+                 </div>
+              </div>
+              <!-- first_icon_cap -->
+              <div class="media">
+                 <div class="media-left">
+                    <img src="./wedding_page/cap.png" alt="New York">
+                 </div>
+                 <div class="media-body">
+                    <h4 class="media-heading">Manage Your Wedding Budget</h4>
+                    <p>From comparing prices of similar wedding vendors to budget management,we make wedding budget management convenient for you. 
+                    </p>
+                 </div>
+              </div>
+              <!-- first_icon_pad -->
+              <div class="media">
+                 <div class="media-left">
+                    <img src="./wedding_page/pad.png" alt="New York">
+                 </div>
+                 <div class="media-body">
+                    <h4 class="media-heading">Manage Your Wedding Checklist</h4>
+                    <p>Prepare your wedding checklist to make sure that you miss nothing before the arrival of the wedding day,
+                       covering all the things you need to check to have a perfect wedding. 
+                    </p>
+                 </div>
+              </div>
+              <!-- first_icon_guest -->
+               <div class="media">
+                 <div class="media-left">
+                    <img src="./wedding_page/guest.png" alt="New York">
+                 </div>
+                 <div class="media-body">
+                    <h4 class="media-heading"> Manage Your Guest</h4>
+                    <p>Our expertise to manage the minimum to maximum guest capacity along with all facilities like welcome, catering, entertainment etc.
+                    </p>
+                 </div>
+              </div>
+           </div>
+           <!-- left section_image -->
+
+           <div class="col-md-4 video-section  wow fadeInRight" data-animate="fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+              <h2 class="video_title">Moments Of Love</h2>
+              <img src="./wedding_page/wedding_couple_midsection.jpg" alt="New York">
+               <div class="col-md-12 text-center pd0"> <a class=" btn red-btn" href="#" data-toggle="modal" data-target="#myModal" data-animate="fadeInUp"> Start Manage Your Wedding</a></div>
+           </div>
+          <!-- list_wedding -->
+        </div>
+        <div class="wedding-third-section">
+           <h2>List of Services for Complete wedding Planning</h2>
+           <p>We have a massive collection of services based on your preferences.</p>
+           <div class="col-md-12 mg-tp30">
+            <div class="col-md-4 col-sm-6" data-animate="fadeInUpBig">
+                <div class="over-container">
+                   <img src="./wedding_page/corporateevent1.jpg" alt="Avatar" class="image">
+                   <div class="overlay">
+                      <div class="overlay-text">
+                         <h3 class="over_h3">Catering Service</h3>
+                         <p class="over_p">Veg | Non Veg | Veg + Non Veg | Traditional </p>
+                      </div>
+                   </div>
+                </div>
+             </div>
+              <div class="col-md-4 col-sm-6" data-animate="fadeInUpBig">
+                 <div class="over-container">
+                    <img src="./wedding_page/homecatering2.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                       <div class="overlay-text">
+                          <h3 class="over_h3">Catering Service</h3>
+                          <p class="over_p">Veg | Non Veg | Veg + Non Veg | Traditional </p>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-4 col-sm-6" data-animate="fadeInUpBig">
+                 <div class="over-container">
+                    <img src="./wedding_page/homedecore1.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                       <div class="overlay-text">
+                          <h3 class="over_h3">Entertainment</h3>
+                          <p class="over_p">Light | Camera | Sound | Dance</p>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-4 col-sm-6" data-animate="fadeInUpBig">
+                 <div class="over-container">
+                    <img src="./wedding_page/homeentertainment2.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                       <div class="overlay-text">
+                          <h3 class="over_h3">Decor</h3>
+                          <p class="over_p">Venue | Mandap | Welcome Entry | Wedding Stage</p>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-4 col-sm-6" data-animate="fadeInUpBig">
+                 <div class="over-container">
+                    <img src="./wedding_page/homephotography.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                       <div class="overlay-text">
+                          <h3 class="over_h3">Photography</h3>
+                          <p class="over_p">Pre Wedding | Portrait | Videography</p>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-4 col-sm-6" data-animate="fadeInUpBig">
+                 <div class="over-container">
+                    <img src="./wedding_page/homeentertainment2.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                       <div class="overlay-text">
+                          <h3 class="over_h3">Corporate Event </h3>
+                          <p class="over_p">Conference | Exhibition | Event</p>
+                          
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <!-- <h1 class="text-uppercase">akash</h1> -->
+     <!-- Destination_wedding_part -->
+     <section class="section-fullwidth" data-animate="fadeInUpBig" style="background:#ffffff;">
+        <div class="col-same">
+         <img src="./wedding_page/home-left.jpg" alt="Avatar" class="image-width">
+        
+        </div>
+         <div class="col-same textblog">
+        <p class="font-corbel">Plan Your Big Day With</p>
+        <p class="font-impact">DESTINATION WEDDING</p>
+        <a class="btn text-btn" data-toggle="modal" data-target="#myModal" href="#"> Let's Connect !</a>
+         </div>
+        </section>
+        <!-- quote_section -->
+        <section class="section-gray" style=" margin-bottom:50px;">
+            <h2>Premium Vendors</h2>
+            <p>
+               Explore the services offered by our premium wedding vendors.
+            </p>
+            <div class="col-md-12 mg-tp30">
+               <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                  <div class="about-col1">
+                     <div class="img">
+                        <img src="./wedding_page/v1.png" alt="">
+                     </div>
+                     <p class="vendor-venu">WEDDING VENUES</p>
+                     <h2 class="title vender-menuh2">akash-Planner</h2>
+                     <p class="vendor_add">
+                        ghaziabad
+                     </p>
+                     <p class="hr"></p>
+                     <div class="col-md-12 text-center">
+                        <a class="btn read-more" data-toggle="modal" data-target="#myModal" href="#">Get A Quote</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                  <div class="about-col1">
+                     <div class="img">
+                        <img src="./wedding_page/v2.png" alt="">
+                     </div>
+                     <p class="vendor-venu">ENTERTAINMENT</p>
+                     <h2 class="title vender-menuh2">akash-Planner</h2>
+                     <p class="vendor_add">
+                        ghaziabad
+                     </p>
+                     <p class="hr"></p>
+                     <div class="col-md-12 text-center">
+                        <a class="btn read-more" data-toggle="modal" data-target="#myModal" href="#">Get A Quote</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                  <div class="about-col1">
+                     <div class="img">
+                        <img src="./wedding_page/v3.png" alt="">
+                     </div>
+                     <p class="vendor-venu">WEDDING PHOTOGRAPHY</p>
+                     <h2 class="title vender-menuh2">akash Studios</h2>
+                    
+                     <p class="vendor_add">
+                        ghaziabad
+                     </p>
+                     <p class="hr"></p>
+                     <div class="col-md-12 text-center">
+                        <a class="btn read-more" data-toggle="modal" data-target="#myModal" href="#">Get A Quote</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                  <div class="about-col1">
+                     <div class="img">
+                        <img src="./wedding_page/v4.png" alt="">
+                     </div>
+                     <p class="vendor-venu">WEDDING CATERING</p>
+                     <h2 class="title vender-menuh2">akash Catering   </h2>
+                     <p class="vendor_add">
+                        ghaziabad
+                     </p>
+                     <p class="hr"></p>
+                     <div class="col-md-12 text-center">
+                        <a class="btn read-more" data-toggle="modal" data-target="#myModal" href="#">Get A Quote</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="col-md-12 btn-center text-center mob-btn-space" id="findbtn"> <a href="vendor-list" class="btn find-vendor text-center " data-animate="fadeInUp">Find Out More Vendors ! </a></div>
+            
+         </section>
+    <!-- footer   -->
+    <footer class="section-p1">
+        <div class="col">        
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>ghaziabad muradnagar </p>
+            <p><strong>Phone:</strong>9548401805,6398017568</p>
+            <p><strong>hours:</strong>anytime</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="iron">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About us</h4>
+            <a href="">Refund Policy</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Contact Us</a>
+        </div>
+    </footer>
 </body>
 </html>

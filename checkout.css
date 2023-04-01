@@ -1,0 +1,84 @@
+/* Header */
+header {
+  background-color: #4CAF50; /* dark green */
+  color: white;
+  padding: 20px;
+}
+
+header button {
+  background-color: white;
+  color: #4CAF50; /* dark green */
+  border: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header button:hover {
+  background-color: #4CAF50; /* dark green */
+  color: white;
+}
+
+/* Main content */
+#main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+#summary {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sum {
+  color: #4CAF50; /* dark green */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inp {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#payment-details {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#card-details label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #4CAF50; /* dark green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e8b57; /* sea green */
+}
+
+
+
+
+
