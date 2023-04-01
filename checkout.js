@@ -1,8 +1,7 @@
 function loadHome(){
     window.location.href = "index.html";
 }
- const M = sessionStorage.getItem("mD");
-console.log(M)
+
 let params = new URLSearchParams(window.location.search);
 
 let rideName = params.get("tit");
@@ -22,7 +21,7 @@ numberOfTicketButton.addEventListener('change', (e) => {
 })
 function subtotal(ticketNumber){
 
-     const subt = Number.parseInt(Number.parseInt(ticketNumber)*price1 + price1*0.0175);
+     const subt = Number.parseInt(Number.parseInt(ticketNumber)*price1);
      if(subt){
         return subt;
      }
