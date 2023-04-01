@@ -1,35 +1,11 @@
 # Velocity-Adventure-Park-Website-Alpha
 
- Velocity Adventure Park  is a [description of the project]. The main goal of this project is to [insert project goals].
+Velocity Adventure Park is a fun-filled adventure park where visitors can enjoy various activities such as go-karting, paintball, bull ride, archery, cricket, and bungee jumping. The park is suitable for all ages and skill levels, with different tracks and activities for beginners and experienced drivers. Visitors can bond with friends, family or coworkers while releasing some adrenaline and getting some exercise. The park's go-karting track is designed for speed demons who love the thrill of the race, while the state-of-the-art paintball arena offers the ultimate paintball adventure. Additionally, visitors can cool off on a hot day with a thrilling ride on the Bull Ride, test their strength and endurance on the challenging rock climbing wall, or enjoy a fun-filled game of cricket with family and friends. Prices for the activities range from Rs. 100 to Rs. 250, and visitors can book tickets online through the park's website.
 
-Table of Contents
-Features
-Installation
-Usage
-Contributing
-License
+
 ## Features
-Contains
-[Feature 2]
-[Feature 3]
+Contains list of activities and rides provided by the Adventure park. 
+Booking option for booking tickets.
+A page for Booking the venue for wedding and parties.
 ...
-Installation
-To install [Project Name], follow these steps:
 
-Clone the repository: git clone https://github.com/username/repository.git
-Install the required packages: npm install
-Usage
-To use [Project Name], follow these steps:
-
-Run the application: npm start
-Navigate to http://localhost:3000 in your browser.
-Contributing
-To contribute to [Project Name], follow these steps:
-
-Fork this repository
-Create a branch: git checkout -b feature/your-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin feature/your-feature
-Submit a pull request
-License
-This project is licensed under the [insert license type] license. See the LICENSE file for more details.
